@@ -10,7 +10,7 @@
 body {
   font-family: "Weblogma_Yekan";
   direction: rtl;
-  font-size: 120%;
+  font-size: 130%;
   line-height: 180%;
    }
   /* line 7, sass/rtl/base/_base.scss */
@@ -193,6 +193,7 @@ body {
   padding-left: 40px;
 }
 /*---------------widget------------------*/
+
 .widget_contact_info_widget i{
   padding-left : 8px;
   padding-right : 1px;

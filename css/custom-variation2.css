@@ -162,7 +162,7 @@ header {
     text-transform: uppercase;
     outline:none;
     border:none;
-    background: #6acff0 !important;
+    background: #08c2ff !important;
     padding:10px 23px 10px 47px;
     margin:28px 0 0 25px;
     border-radius: 3px;
@@ -171,7 +171,7 @@ header {
     background:#50c0eb;
 }
 .nav li.button.active a {
-    background: #6acff0 !important;
+    background: #08c2ff !important;
 }
 .nav li.fa {
     position: relative;
@@ -809,7 +809,7 @@ header {
 ==============================================*/
 
 	.footer {
-		background: #6acff0;
+		background: #08c2ff;
 		padding: 80px 0;
 		float: left;
 		width:100%;
@@ -1017,7 +1017,7 @@ header {
 	color:#fff;
 	text-align:center;
 	padding:11.5px 14px;
-	background:#6acff0;
+	background:#08c2ff;
 	position:absolute;
 	bottom:0;
 }
@@ -1025,7 +1025,7 @@ header {
 .filter button {
 	outline:none;
 	border:none;
-	background:#6acff0;
+	background:#08c2ff;
 	text-transform:uppercase;
 	color:#fff;
 	font-weight:700;
@@ -1136,7 +1136,7 @@ header {
 	font-size: 13px;
 }
 .doctor .social-net a:hover {
-	color: #6acff0;
+	color: #08c2ff;
 }
 .doctor .doc-time {
 	font-weight:normal;
@@ -1158,10 +1158,10 @@ header {
 	transition: all 0.5s;
 }
 .doctor:hover  {
-	border-bottom:2px solid #6acff0; 
+	border-bottom:2px solid #08c2ff; 
 }
 .doctor:hover .doc-time {
-	background: #6acff0; 
+	background: #08c2ff; 
 	color:#fff;
     bottom: 0;
 }
@@ -1612,9 +1612,9 @@ header {
 	color:#fff;
 	font-size:13px;
 	font-weight:700;
-	background:#6acff0;
+	background:#08c2ff;
 	padding:10px 18px;
-	border:1px solid #6acff0;
+	border:1px solid #08c2ff;
 }
 .right-section button:hover,
 .right-section input[type=submit]:hover {
@@ -1715,7 +1715,7 @@ header {
 }
 .right-section table caption,
 .right-section table #today {
-    background: #6acff0;
+    background: #08c2ff;
     color: #fff;
     font-weight: bold;
 }
@@ -1744,18 +1744,18 @@ header {
 .pager-section > .current,
 .link-pages > span,
 .pager-section > a:hover {
-    background-color: #6acff0;
-    border:1px solid #6acff0 !important;
+    background-color: #08c2ff;
+    border:1px solid #08c2ff !important;
     color: #fff;
 }
 .pager-section .next {
 	background:url(../images/icons/p-right.png) left top no-repeat ;
-	border:1px solid #6acff0 !important;
+	border:1px solid #08c2ff !important;
     font-size: 0;
 }
 .pager-section .prev {
 	background:url(../images/icons/p-left.png) left top no-repeat ;
-	border:1px solid #6acff0 !important;
+	border:1px solid #08c2ff !important;
     font-size: 0;
 }
 .quote p {
@@ -1952,9 +1952,9 @@ header {
     color:#fff;
     font-size:13px;
     font-weight:700;
-    background:#6acff0;
+    background:#08c2ff;
     padding:10px 18px;
-    border:1px solid #6acff0;
+    border:1px solid #08c2ff;
 }
 .search-form input[type=submit]:hover {
     background:#57c9ee;
