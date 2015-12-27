@@ -47,11 +47,30 @@ body{
 	border-top : 0px !important;
 }
 /*-----------menu ------------------*/
+.navbar-nav a{
+	font-size : 120%;
+}
 .navbar-nav > li > a {
     padding: 25px 19px 25px 20px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     background-position: left 32px;
+}
+.navbar-nav > li:hover >ul.dropdown-menu{
+	display: block;
+}
+.dropdown-menu {
+    min-width: 220px;
+}
+.dropdown-menu a{
+    background-color: #337ab7;
+}
+.dropdown-menu > li > a{
+	padding :8px 22px;
+}
+.dropdown-menu  li  a:hover,
+.dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus{
+	background-color:#4dbef4;
 }
 /*-------------Main---------------*/
 @media only screen and (max-width : 767px) {
