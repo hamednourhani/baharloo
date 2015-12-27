@@ -1,0 +1,63 @@
+/*
+	Theme Name: Health Plus
+	Theme URI: http://themeforest.net/user/pixarwpthemes
+	Description: Health Plus - Health & Medical is a fully dynamic, well structured and beautiful wordpress theme which is specifically designed for hospitals, health clinics, dentists and everyone else involved in health services.
+	Author: Pixar Themes
+	Author URI: http://www.pixarwpthemes.com/
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+	Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, rtl-language-support, theme-options, translation-ready, accessibility-ready
+    Text Domain: health-plus
+*/
+
+
+body { overflow-x: hidden !important; }
+
+.alignnone { margin: 5px 20px 20px 0; }
+.aligncenter { display: block; margin: 5px auto 5px auto; }
+.alignright { float:right; margin: 0 0 0 15px; }
+.alignleft { float: left; margin: 0 15px 0 0; }
+.wp-caption { background: #fff; border: 1px solid #f0f0f0; max-width: 96%; padding: 5px 3px 10px; text-align: center; }
+.wp-caption img { border: 0 none; height: auto; margin: 0; max-width: 98.5%; padding: 0; width: auto; }
+.wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px; margin: 0; padding: 0 4px 5px; }
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+.nocomments {}
+.screen-reader-text {}
+
+
+
+/*----------------karait customization-------------------*/
+body{
+	background-image: url('images/blue-back3.jpg') !important;
+	background-repeat: repeat !important;
+	background-position: top left !important;
+}
+/*------------top-bar-------------------------*/
+.top-strip h2 {
+    border-right: 1px solid rgb(85.9%, 92.2%, 96.1%);
+    color: #24536E;
+}
+#lang_sel_list{
+  padding : 20px;
+}
+#lang_sel_list ul{
+	border-top : 0px !important;
+}
+/*-----------menu ------------------*/
+.navbar-nav > li > a {
+    padding: 25px 19px 25px 20px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-position: left 32px;
+}
+/*-------------Main---------------*/
+@media only screen and (max-width : 767px) {
+.inner-banner .container .row > h2 {
+   bottom : auto;
+    top: 100%;
+}
+}
+

@@ -1,0 +1,9 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">page_subtitle</custom-field>
+        <custom-field action="translate">doc_designation</custom-field>
+        <custom-field action="translate">doc_timetable</custom-field>
+    </custom-fields>
+</wpml-config>
+
+

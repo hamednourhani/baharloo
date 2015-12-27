@@ -1,0 +1,25 @@
+
+/* Redux Panel */
+
+.redux-main .form-table tr { border-bottom-width: 0px; }
+.redux-container .redux-group-tab > h3 { font-size: 24px; background: #333; color: #fff; padding: 0 20px; text-transform: uppercase; text-align: center; }
+.redux-container-sorter ul { width: 44%; }
+
+#home-blocks_disabled { margin: 0 0 20px; }
+#import-btn { display: inline-block; padding: 15px 25px; font-weight: bold; border-radius: 3px; background: green; color: #fff; text-decoration: none; }
+#import-btn:hover { opacity: 0.7; }
+
+
+/* Meta Boxes */
+
+.meta-box-sortables h3 { background: #333; color: #fff; text-transform: uppercase; }
+
+.rwmb-meta-box .description { clear: both; }
+.rwmb-meta-box .rwmb-label { font-weight: bold; font-size: 14px; }
+
+
+/* Import Page */
+
+.import-notice { background: #fff; padding: 10px 15px 10px 30px; border-left: 5px solid #666; }
+.import-success { border-left-color: green; color: green; }
+.import-warning { border-left-color: #0064cd; color: #0064cd; }

@@ -1,0 +1,1 @@
+<div class="col-md-4 col-sm-5 right-section">	<?php if ( ! dynamic_sidebar( 'sidebar-blog' ) ) : ?>	<?php endif; ?></div>

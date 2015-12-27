@@ -1,0 +1,1 @@
+<form method="get" class="search-form" action="<?php echo esc_url( get_home_url('/') ); ?>">    <p class="clearfix">        <input type="text" name="s" placeholder="<?php _e( 'Type keywords ...', 'health-plus' ); ?>" />        <input type="submit" name="submit" value="<?php _e( 'Search', 'health-plus' ); ?>" />    </p></form>

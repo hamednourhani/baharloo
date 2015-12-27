@@ -1,0 +1,1 @@
+Health Plus : Health & Medical is a fully dynamic, well structured and beautiful Wordpress theme which is specifically designed for hospitals, health clinics, dentists and everyone else involved in health services.
