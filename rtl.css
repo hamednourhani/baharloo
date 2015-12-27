@@ -145,6 +145,19 @@ body {
     padding-left: 5px;
     padding-right: 18px;
 }
+.ids address.message {
+    background: url('images/icons/message-var2.png') right 5px no-repeat;
+}
+.ids address {
+    padding-left: 3px;
+    padding-right: 27px;
+  }
+  .ids address.phone {
+    background: url('images/icons/phone-var2.png') right 5px no-repeat;
+}
+.ids address.location {
+    background: url('images/icons/location-var2.png') right 5px no-repeat;
+}
 /*---------------------sidebar----------------------------------*/
 .sidebar-widget ul li a, .accordian ul li a {
     font-size: 15px;
@@ -167,7 +180,7 @@ body {
     font-size: 16px;
 }
 .read-more {
-    background: url(images/icons/soci-ico-rtl.png) no-repeat left 7px;
+    background: url('images/icons/soci-ico-rtl.png') no-repeat left 7px;
     padding-left: 10px;
     padding-right : 0px;
 }
