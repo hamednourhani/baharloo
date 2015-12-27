@@ -46,6 +46,9 @@ body{
 #lang_sel_list ul{
 	border-top : 0px !important;
 }
+.logo {
+    padding: 15px;
+}
 /*-----------menu ------------------*/
 .navbar-nav a{
 	font-size : 120%;
@@ -79,4 +82,7 @@ body{
     top: 100%;
 }
 }
-
+/*---------------widget------------------*/
+.widget_contact_info_widget i{
+	padding-right : 8px;
+}
