@@ -10,8 +10,11 @@
 body {
   font-family: "Weblogma_Yekan";
   direction: rtl;
-  font-size: 130%;
+  font-size: 160%;
   line-height: 180%;
+   }
+   .inner-banner .container .row > h2{
+    font-family: "Weblogma_Yekan";
    }
   /* line 7, sass/rtl/base/_base.scss */
   body form {
@@ -63,12 +66,30 @@ body {
 
 .dropdown-menu {
     top: 80%;
-    right: 25%;
+    right: 1%;
     left :auto;
     border: none;
     box-shadow: none;
     text-align: right !important;
+
 }
+.drop-down-bg{
+  left : 75%;
+}
+
+.navbar-nav ul li .drop-down-bg{
+  display: none;
+}
+.navbar-nav ul li ul.dropdown-menu{
+  right : 100%;
+  left : auto;
+}
+
+.navbar-nav ul li:hover > ul.dropdown-menu{
+  display: block;
+}
+
+
 .drop {
     background-position : 6% 52% ;
 }
@@ -158,6 +179,9 @@ body {
 .ids address.location {
     background: url('images/icons/location-var2.png') right 5px no-repeat;
 }
+.about p {
+    font-size: 15px;
+}
 /*---------------------sidebar----------------------------------*/
 .sidebar-widget ul li a, .accordian ul li a {
     font-size: 15px;
@@ -204,6 +228,9 @@ body {
 .copyrights .site-holder{
   float: left;
   padding-left: 40px;
+}
+.footer ul li a {
+    font-size: 16px;
 }
 /*---------------widget------------------*/
 

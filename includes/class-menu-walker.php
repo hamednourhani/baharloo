@@ -45,7 +45,7 @@ class HNM_walker_nav_menu extends Walker_Nav_Menu {
         $atts['href']   = ! empty( $item->url )        ? $item->url        : '';
         if( $item->hasChildren )
         {
-            $atts['data-toggle'] = 'dropdown';
+            // $atts['data-toggle'] = 'dropdown';
             $atts['aria-expanded'] = 'false';
         }
 
