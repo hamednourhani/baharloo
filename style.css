@@ -31,9 +31,7 @@ body { overflow-x: hidden !important; }
 
 /*----------------karait customization-------------------*/
 body{
-	background-image: url('images/blue-back3.jpg') !important;
-	background-repeat: repeat !important;
-	background-position: top left !important;
+	background-color: #004279 !important;
 }
 /*------------top-bar-------------------------*/
 .top-strip h2 {
@@ -79,6 +77,11 @@ body{
 #banner-b .form-section {
     display: none;
     }
+.drop{
+	background-position: 95% 52%;
+}
+
+
 /*-------------Main---------------*/
 @media only screen and (max-width : 767px) {
 .inner-banner .container .row > h2 {
