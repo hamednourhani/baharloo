@@ -82,7 +82,7 @@ body{
 .navbar-nav ul li:hover > ul.dropdown-menu{
 	display: block;
 }
-.navbar-nav > li.reservtion > a,
+/*.navbar-nav > li.reservtion > a,
 .navbar-nav > li.reservtion.active > a{
 background-color: rgb(0,66,121) !important;
 background-image: none;
@@ -100,7 +100,7 @@ margin: auto 5px;
 	color : white;
 	border-bottom-width: 3px;
 	background-image: none;
-}
+}*/
 
 .dropdown-menu a{
     background-color: #337ab7;
@@ -118,7 +118,7 @@ margin: auto 5px;
 }
 
 #banner-b .form-section {
-    display: none;
+    /*display: none;*/
     }
 .drop{
 	background-position: 95% 52%;
