@@ -82,8 +82,10 @@ body{
 .navbar-nav ul li:hover > ul.dropdown-menu{
 	display: block;
 }
-.navbar-nav > li.reservtion > a{
+.navbar-nav > li.reservtion > a,
+.navbar-nav > li.reservtion.active > a{
 background-color: rgb(0,66,121) !important;
+background-image: none;
 color: white;
 padding: 20px;
 border-bottom: 5px solid rgb(22, 149, 255);
@@ -93,9 +95,11 @@ border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 margin: auto 5px;
 }
-.navbar-nav > li.reservtion > a:hover{
+.navbar-nav > li.reservtion > a:hover,
+.navbar-nav > li.reservtion.active > a:hover{
 	color : white;
 	border-bottom-width: 3px;
+	background-image: none;
 }
 
 .dropdown-menu a{
