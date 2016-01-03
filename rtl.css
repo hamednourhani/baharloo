@@ -266,6 +266,9 @@ table.appointments-table td p{
     float: right;
     width: 50%;
 }
+.appointments-list table th{
+border-width: 3px;
+}
 .appointments-legend-table {
     float: right;
     clear: both;
@@ -291,13 +294,19 @@ table.appointments-table td p{
 
 .sbOptions li a{
   text-align: center;
-  font-size : 130%;
+  font-size : 140%;
+}
+.sbOptions a:link, .sbOptions a:visited {
+    color: #000;
 }
 .sbSelector{
   text-align: center;
-  font-size : 130%;
+  font-size : 140%;
+  color : #000;
 }
-
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover {
+    color: #000;
+}
 .appointments-pagination .next {
     float: left;
     margin : 10px;
@@ -317,4 +326,15 @@ table.appointments-table td p{
 }
 .appointments-my-appointments th{
   color : #000;
+}
+.appointments-my-appointments table td {
+    border-width: 1px !important;
+}
+
+
+.appointments-confirmation-wrapper span {
+    float: right;
+}
+.appointments-confirmation-wrapper {
+    margin-top: 20px;
 }

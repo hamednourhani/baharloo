@@ -1,14 +1,14 @@
 <table class="appointments-table">
 <tbody>
 <tr class="services-row">
-<td>[app_services]</td>
-<td>[app_service_providers]</td>
+<td>[app_services select="لطفا نوع خدمات را انتخاب نمایید : " show="نمایش موارد موجود" empty_option="انتخاب نمایید ..."]</td>
+<td>[app_service_providers select="لطفا پزشک مربوطه را انتخاب نمایید : " show="نمایش جدول زمانبندی" empty_option="انتخاب نمایید ..."]</td>
 </tr>
 <tr class="top-cal-tr">
-<td colspan="2" class="top-cal">[app_monthly_schedule]</td>
+<td colspan="2" class="top-cal">[app_monthly_schedule require_provider="1" required_message="لطفا پزشک مربوطه را انتخاب نمایید."]</td>
 </tr>
 <tr class="bottom-cal-tr">
-<td colspan="2" class="bottom-cal">[app_monthly_schedule add="1"]</td>
+<td colspan="2" class="bottom-cal">[app_monthly_schedule add="1" require_provider="1" ]</td>
 </tr>
 <tr>
 <td colspan="2">[app_pagination step="2" month="1"]</td>
@@ -17,10 +17,10 @@
 <td colspan="2">[app_login]</td>
 </tr>
 <tr>
-<td colspan="2">[app_confirmation]</td>
+<td colspan="2">[app_confirmation title="لطفا زمان انتخاب شده و مشخصات خود را بررسی نموده و تایید نمایید : " button_text="برای تایید این نوبت اینجا کلیک نمایید" confirm_text="نوبت شما با موفقیت ثبت گردید!" warning_text="لطفا فیلدهای ضروری را تکمیل نمایید!" name="نام ونام خانوادگی :" phone="تلفن ثابت :"]</td>
 </tr>
 <tr>
-<td colspan="2">[app_my_appointments]</td>
+<td colspan="2">[app_my_appointments allow_cancel="1" login_text="برای ورود به سایت اینجا کلیک نمایید :"]</td>
 </tr>
 </tbody>
 </table>
