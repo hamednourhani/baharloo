@@ -238,3 +238,83 @@ body {
   padding-left : 8px;
   padding-right : 1px;
 }
+
+
+/*-------------appointments-------------------------*/
+table.appointments-table{
+  margin-bottom : 30px;
+}
+table.appointments-table tr:nth-of-type(2n){
+  background: none;
+}
+table.appointments-table td{
+  border-width: 3px;
+}
+table.appointments-table td p{
+  font-size : 16px;
+}
+.appointments-wrapper h3{
+  display : none;
+}
+.appointments-wrapper .appointments-instructions{
+  display : none;
+}
+.appointments-list,.appointments-wrapper{
+  margin-top : 0px;
+}
+.app_monthly_schedule_wrapper, .app_timetable_wrapper {
+    float: right;
+    width: 50%;
+}
+.appointments-legend-table {
+    float: right;
+    clear: both;
+}
+
+.top-cal{
+  padding-top : 20px;
+  border-bottom : 0px;
+}
+.top-cal tfoot{
+  display : none;
+  
+}
+.bottom-cal{
+  padding-top: 0px;
+  border-top : 0px;
+  padding-bottom : 20px;
+
+}
+.bottom-cal thead{
+  display: none;
+}
+
+.sbOptions li a{
+  text-align: center;
+  font-size : 130%;
+}
+.sbSelector{
+  text-align: center;
+  font-size : 130%;
+}
+
+.appointments-pagination .next {
+    float: left;
+    margin : 10px;
+    font-size: 140%;
+}
+.appointments-pagination .previous {
+    float: right;
+    font-size: 140%;
+    margin : 10px;
+}
+.appointments-my-appointments{
+  font-size : 16px;
+}
+.appointments-my-appointments h3{
+  padding : 20px !important;
+  font-size : 26px;
+}
+.appointments-my-appointments th{
+  color : #000;
+}
