@@ -335,6 +335,10 @@ border-width: 3px;
 .appointments-confirmation-wrapper span {
     float: right;
 }
+.appointments-confirmation-wrapper label {
+    display: block;
+    font-size: 125%;
+}
 .appointments-confirmation-wrapper {
     margin-top: 20px;
 }
