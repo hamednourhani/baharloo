@@ -1,18 +1,861 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: 2016-01-04 17:45+0330\n"
-"PO-Revision-Date: 2016-01-04 17:47+0330\n"
+"Project-Id-Version: baharloo\n"
+"POT-Creation-Date: 2016-01-04 18:12+0330\n"
+"PO-Revision-Date: 2016-01-04 18:13+0330\n"
 "Last-Translator: \n"
-"Language-Team: \n"
+"Language-Team: iTstar <itstarir@gmail.com>\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.3\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: fa_IR\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-SearchPath-0: languages\n"
-"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: functions.php\n"
+
+#: 404.php:1
+msgid "Opps, This page Could not be found"
+msgstr ""
+
+#: 404.php:1
+msgid "This page you are looking for might have been removed"
+msgstr ""
+
+#: archive.php:1
+#, php-format
+msgid "<span>All posts in</span> %s"
+msgstr ""
+
+#: archive.php:1
+#, php-format
+msgid "<span>All posts tagged</span> %s"
+msgstr ""
+
+#: archive.php:1
+#, php-format
+msgid "<span>Archive for</span> %s"
+msgstr ""
+
+#: archive.php:1
+#, php-format
+msgid "<span>All posts by</span> %s"
+msgstr ""
+
+#: archive.php:1
+msgid "Archive"
+msgstr ""
+
+#: comments-form.php:8
+msgid "Leave a reply"
+msgstr ""
+
+#: comments-form.php:12
+#, php-format
+msgid "You must be <a href=\"%s\">logged in </a>to post a comment."
+msgstr ""
+
+#: comments-form.php:18
+msgid "Name"
+msgstr ""
+
+#: comments-form.php:19 includes/shortcodes-vc-integration.php:52
+msgid "Email"
+msgstr ""
+
+#: comments-form.php:20
+msgid "Website"
+msgstr ""
+
+#: comments-form.php:29
+msgid "Submit"
+msgstr ""
+
+#: comments-form.php:30
+msgid "Message"
+msgstr ""
+
+#: comments.php:1
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:1
+msgid "Comments"
+msgstr ""
+
+#: comments.php:1
+msgid "Sorry no comment yet."
+msgstr ""
+
+#: comments.php:1
+msgid "Comments are closed."
+msgstr ""
+
+#: content-header.php:54
+msgid "Toggle navigation"
+msgstr ""
+
+#: content-none.php:1
+msgid "Sorry, but nothing matched your search terms."
+msgstr ""
+
+#: content-none.php:1
+msgid "Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:1
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content.php:31
+msgid "Read more"
+msgstr ""
+
+#: functions.php:1
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:1
+msgid "Blog"
+msgstr ""
+
+#: functions.php:1
+msgid "Page"
+msgstr ""
+
+#: functions.php:1 includes/theme-options.php:243
+msgid "Footer"
+msgstr ""
+
+#: includes/class-setup.php:22
+msgid "Install Required &amp; Recommended Plugins"
+msgstr ""
+
+#: includes/class-setup.php:41
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/class-setup.php:44
+msgid "Import Demo Content"
+msgstr ""
+
+#: includes/class-setup.php:47
+msgid ""
+"Installing the demo content is not required to use this theme. It is simply "
+"meant to provide a way to get a feel for the theme without having to "
+"manually set up all of your own content. <strong>If you choose not to import "
+"the demo content you need to make sure you manually create all necessary "
+"page templates for your website.</strong>"
+msgstr ""
+
+#: includes/class-setup.php:52
+msgid "Import Demo Contents"
+msgstr ""
+
+#: includes/class-setup.php:52
+msgid "Importing Options"
+msgstr ""
+
+#: includes/class-setup.php:55 includes/class-setup.php:59
+msgid "Import Widgets"
+msgstr ""
+
+#: includes/class-setup.php:58
+msgid ""
+"Manage your widgets to control what displays in the Sidebars, Bottom and "
+"Footer section of the site. Click the button, select and upload the "
+"<em><strong>health-plus-widgets.wie</strong></em> file in the import section "
+"to import all the demo widgets."
+msgstr ""
+
+#: includes/class-setup.php:59
+msgid "Manage Widgets"
+msgstr ""
+
+#: includes/class-setup.php:62
+msgid "Setup Menus"
+msgstr ""
+
+#: includes/class-setup.php:64
+msgid ""
+"Make sure you create and assign your menus to the menu locations found in "
+"the theme."
+msgstr ""
+
+#: includes/class-setup.php:65
+msgid "Manage Menus"
+msgstr ""
+
+#: includes/class-setup.php:69
+msgid "Setup Homepage"
+msgstr ""
+
+#: includes/class-setup.php:71
+msgid ""
+"In order to display homepage template as your site's main front page, you "
+"must first assign your static\n"
+"\t\t\t\t\tpage in the WordPress settings. You can also set which page will "
+"display your blog posts. If you have\n"
+"\t\t\t\t\timported the theme demo content you&#39;ll want to set the page "
+"called \"Home\" as your homepage."
+msgstr ""
+
+#: includes/class-setup.php:74
+msgid "Reading Settings"
+msgstr ""
+
+#: includes/class-setup.php:78
+msgid "Get Involved"
+msgstr ""
+
+#: includes/class-setup.php:79
+msgid ""
+"<p>Help us to improve Health Plus to make it the best theme by submitting "
+"feedback and rating.\n"
+"\t\t\t\t\tYou can get in touch with us via social media.</"
+"p><p><strong>Request a new Feature or need customisation of this theme, just "
+"shot me an email at info@pixarwpthemes.com</strong></p>"
+msgstr ""
+
+#: includes/class-setup.php:99
+msgid "Health Plus Setup Guide"
+msgstr ""
+
+#: includes/class-setup.php:99
+msgid "Health+ Setup"
+msgstr ""
+
+#: includes/class-setup.php:207
+msgid "Completed!"
+msgstr ""
+
+#: includes/class-setup.php:209
+msgid "Incomplete"
+msgstr ""
+
+#: includes/class-setup.php:253
+#, php-format
+msgid "Welcome to Health Plus %s"
+msgstr ""
+
+#: includes/class-setup.php:254
+#, php-format
+msgid ""
+"Health & Medical is a fully dynamic, well structured and beautiful wordpress "
+"theme which is specifically designed for hospitals, health clinics, dentists "
+"and everyone else involved in health services. If you have more questions "
+"please <a href=\"%s\" target=\"_blank\">review the documentation</a>."
+msgstr ""
+
+#: includes/class-setup.php:264
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-setup.php:265
+msgid "Submit a Support Ticket"
+msgstr ""
+
+#: includes/class-tgmpa.php:1
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/class-widget-appointment.php:1 includes/theme-options.php:216
+msgid "Appointment Form"
+msgstr ""
+
+#: includes/class-widget-appointment.php:1
+msgid ""
+"A widget to display an appointment form in sidebars. Contact Form 7 plugin "
+"required."
+msgstr ""
+
+#: includes/class-widget-appointment.php:1 includes/custom-functions.php:91
+msgid "Title:"
+msgstr ""
+
+#: includes/class-widget-appointment.php:1
+msgid "Form Shortcode:"
+msgstr ""
+
+#: includes/class-widget-appointment.php:1
+msgid ""
+"Create a form with Contact Form 7 and insert it's shortcode here. Contact "
+"Form 7 plugin must be installed for this form to work and appear."
+msgstr ""
+
+#: includes/custom-functions.php:19
+msgid "Contact Informaion Widget"
+msgstr ""
+
+#: includes/custom-functions.php:22
+msgid "Display Contact Information"
+msgstr ""
+
+#: includes/custom-functions.php:60
+msgid "Last Posts"
+msgstr ""
+
+#: includes/custom-functions.php:95
+msgid "Address :"
+msgstr ""
+
+#: includes/custom-functions.php:99
+msgid "Phone :"
+msgstr ""
+
+#: includes/custom-functions.php:104
+msgid "Fax :"
+msgstr ""
+
+#: includes/custom-functions.php:111
+msgid "Email Address :"
+msgstr ""
+
+#: includes/custom-functions.php:184
+msgid "Please Select Your Service : "
+msgstr "لطفا تخصص مورد نظر را انتخاب نمایید :"
+
+#: includes/custom-functions.php:185
+msgid "Select The Service"
+msgstr "انتخاب تخصص"
+
+#: includes/extras.php:1
+msgid "Reply"
+msgstr ""
+
+#: includes/import/class-importer.php:30
+msgid "WP_Importer not found"
+msgstr ""
+
+#: includes/import/class-importer.php:144
+#: includes/import/class-importer.php:152
+#: includes/import/class-importer.php:226
+#: includes/import/class-importer.php:230
+#: includes/import/class-importer.php:239
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/import/class-importer.php:145
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: includes/import/class-importer.php:231
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: includes/import/class-importer.php:247
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: includes/import/class-importer.php:272
+#, php-format
+msgid ""
+"<div class=\"error\">Failed to import author %s. Their posts will be "
+"attributed to the current user.</div>"
+msgstr ""
+
+#: includes/import/class-importer.php:332
+#, php-format
+msgid ""
+"<div class=\"error\">Failed to create new user for %s. Their posts will be "
+"attributed to the current user.</div>"
+msgstr ""
+
+#: includes/import/class-importer.php:383
+#, php-format
+msgid "<div class=\"error\">Failed to import category %s</div>"
+msgstr ""
+
+#: includes/import/class-importer.php:423
+#, php-format
+msgid "<div class=\"error\">Failed to import post tag %s</div>"
+msgstr ""
+
+#: includes/import/class-importer.php:469
+#: includes/import/class-importer.php:617
+#, php-format
+msgid "<div class=\"error\">Failed to import %s %s</div>"
+msgstr ""
+
+#: includes/import/class-importer.php:495
+#, php-format
+msgid ""
+"<div class=\"error\"><p></p>Failed to import &#8220;%s&#8221;: Invalid post "
+"type %s"
+msgstr ""
+
+#: includes/import/class-importer.php:520
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: includes/import/class-importer.php:582
+#, php-format
+msgid "<div class=\"error\">Failed to import %s &#8220;%s&#8221;</div>"
+msgstr ""
+
+#: includes/import/class-importer.php:720
+msgid "Successfuly Imported Everything."
+msgstr ""
+
+#: includes/import/class-importer.php:754
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: includes/import/class-importer.php:761
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/import/class-importer.php:824
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: includes/import/class-importer.php:837
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/import/class-importer.php:881
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/import/class-importer.php:887
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: includes/import/class-importer.php:894
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/import/class-importer.php:899
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/import/class-importer.php:905
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/import/page.php:7
+msgid "Health+ Import"
+msgstr ""
+
+#: includes/import/page.php:15
+msgid "<h1>Health Plus Import Demo</h1>"
+msgstr ""
+
+#: includes/import/page.php:21
+msgid ""
+"<p class='import-notice import-success'><strong>It's done.</"
+"strong><br><em>If you are getting errors please check all required and "
+"recommended plugins are installed and activated. You can ignore 'already "
+"exist' notifications.</em></p>"
+msgstr ""
+
+#: includes/import/page.php:27
+msgid ""
+"<p class=\"import-notice import-warning\">Warning: Make sure that all "
+"required and recommended plugin are installed and activated before importing "
+"demo data.</p>"
+msgstr ""
+
+#: includes/import/page.php:29
+msgid ""
+"<p class=\"about-text\">Import all the demo contents in 1 click. It will "
+"import all posts, pages, menus and all plugins data with categories, tags "
+"and attachments.</p>"
+msgstr ""
+
+#: includes/import/page.php:31
+msgid "Import Contents"
+msgstr ""
+
+#: includes/import/page.php:35
+msgid "Back to Health Plus Setup"
+msgstr ""
+
+#: includes/import/parsers.php:42 includes/import/parsers.php:73
+#: includes/import/parsers.php:81
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: includes/import/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: includes/import/parsers.php:85 includes/import/parsers.php:90
+#: includes/import/parsers.php:280 includes/import/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: includes/meta-boxes.php:12
+msgid "Page Settings"
+msgstr ""
+
+#: includes/meta-boxes.php:19
+msgid "Page Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:20
+msgid "Select the layout of this page."
+msgstr ""
+
+#: includes/meta-boxes.php:31
+msgid "Page Sub-Title"
+msgstr ""
+
+#: includes/meta-boxes.php:32
+msgid "Enter a Sub-Title for this page. (Optional)"
+msgstr ""
+
+#: includes/meta-boxes.php:42
+msgid "Banner Settings"
+msgstr ""
+
+#: includes/meta-boxes.php:49
+msgid "Banner Options"
+msgstr ""
+
+#: includes/meta-boxes.php:50
+msgid ""
+"Select the banner option of this page. e.g. Featured Image as a background "
+"or Slider."
+msgstr ""
+
+#: includes/meta-boxes.php:60
+msgid "Slider Shortcode"
+msgstr ""
+
+#: includes/meta-boxes.php:61
+msgid ""
+"Insert Revolution Slider shortcode here. And select Slider as banner option "
+"from above."
+msgstr ""
+
+#: includes/meta-boxes.php:71
+msgid "Doctor Profile"
+msgstr ""
+
+#: includes/meta-boxes.php:78
+msgid "Designation"
+msgstr ""
+
+#: includes/meta-boxes.php:84
+msgid "Time Table"
+msgstr ""
+
+#: includes/meta-boxes.php:87
+msgid ""
+"Enter availability time table of this doctor. e.g. Mon to Fri 14:00-16:00"
+msgstr ""
+
+#: includes/plugins-integration.php:32
+msgid "Doctors"
+msgstr ""
+
+#: includes/plugins-integration.php:33
+msgid "Doctor"
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:6
+msgid "Health+: Heading"
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:7
+msgid "Insert a beautiful custom heading."
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:13
+msgid "Heading Span"
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:19
+msgid "Heading Content"
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:25
+#: includes/shortcodes-vc-integration.php:93
+msgid "Extra Class"
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:39
+msgid "Health+: Address"
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:40
+msgid "Insert address, email and phone number on contact form."
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:46
+msgid "Location"
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:58
+msgid "Phone"
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:72
+msgid "Health+: Posts"
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:73
+msgid "Show blog posts on home page."
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:79
+#: includes/shortcodes-vc-integration.php:115
+msgid "Categories"
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:80
+#: includes/shortcodes-vc-integration.php:116
+msgid ""
+"Filter posts by categories. Insert blog category slugs separated by comma."
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:86
+msgid "Characters Limit"
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:87
+msgid "Enter limit of characters to show for post contents."
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:94
+msgid "Add an extra class and then style it in your stylesheet."
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:108
+msgid "Health+: Doctors"
+msgstr ""
+
+#: includes/shortcodes-vc-integration.php:109
+msgid "Show doctors on home page."
+msgstr ""
+
+#: includes/theme-options.php:13 includes/theme-options.php:18
+msgid "Options"
+msgstr ""
+
+#: includes/theme-options.php:17
+msgid "Health+ Options"
+msgstr ""
+
+#: includes/theme-options.php:46
+msgid "General"
+msgstr ""
+
+#: includes/theme-options.php:52
+msgid "Item Purchase Code"
+msgstr ""
+
+#: includes/theme-options.php:53
+msgid "Insert item purchase code to receive automatic theme updates."
+msgstr ""
+
+#: includes/theme-options.php:57
+msgid "Upload Favicon"
+msgstr ""
+
+#: includes/theme-options.php:58
+msgid ""
+"A transparent PNG image of size 16x16 or an ICO image file can be uploaded "
+"for a favicon."
+msgstr ""
+
+#: includes/theme-options.php:67
+msgid "Site Layout"
+msgstr ""
+
+#: includes/theme-options.php:68
+msgid "Select a style for the site. e.g. Boxed or Full Width"
+msgstr ""
+
+#: includes/theme-options.php:84
+msgid "Blog Sidebar"
+msgstr ""
+
+#: includes/theme-options.php:85
+msgid ""
+"Sidebar Position for blog pages. i.e. Blog, Search, Archives and Post detail "
+"pages."
+msgstr ""
+
+#: includes/theme-options.php:99
+msgid "Default Banner Image"
+msgstr ""
+
+#: includes/theme-options.php:100
+msgid ""
+"Upload an image to be used as a default banner image if no banner image is "
+"set in individual page."
+msgstr ""
+
+#: includes/theme-options.php:107
+msgid "News Categories"
+msgstr ""
+
+#: includes/theme-options.php:108
+msgid ""
+"Select categories for news page template to show their posts on News page "
+"template. Make sure that you have an empty page with News page template "
+"assigned to it."
+msgstr ""
+
+#: includes/theme-options.php:124
+msgid "Header"
+msgstr ""
+
+#: includes/theme-options.php:127
+msgid "Upload Logo"
+msgstr ""
+
+#: includes/theme-options.php:128
+msgid ""
+"Upload your logo for the site here. This will display in the header section."
+msgstr ""
+
+#: includes/theme-options.php:134
+msgid "Top Bar Phone #"
+msgstr ""
+
+#: includes/theme-options.php:135
+msgid "Enter some text to display in top bar. e.g. Phone No"
+msgstr ""
+
+#: includes/theme-options.php:141
+msgid "Top Bar Email"
+msgstr ""
+
+#: includes/theme-options.php:142
+msgid "Enter some text to display in top bar besides Phone no. e.g. Email"
+msgstr ""
+
+#: includes/theme-options.php:153
+msgid "Home"
+msgstr ""
+
+#: includes/theme-options.php:157
+msgid "Banner: Home v1"
+msgstr ""
+
+#: includes/theme-options.php:161
+msgid "Will apply to pages with template Home v1 only."
+msgstr ""
+
+#: includes/theme-options.php:167 includes/theme-options.php:200
+msgid "Banner Title"
+msgstr ""
+
+#: includes/theme-options.php:168 includes/theme-options.php:201
+msgid "Title to show on banner besides the appointment form."
+msgstr ""
+
+#: includes/theme-options.php:173
+msgid "Banner Timing"
+msgstr ""
+
+#: includes/theme-options.php:174
+msgid "Wok times schedule to display on banner. HTML is allowed."
+msgstr ""
+
+#: includes/theme-options.php:180 includes/theme-options.php:206
+msgid "Banner Contents"
+msgstr ""
+
+#: includes/theme-options.php:181 includes/theme-options.php:207
+msgid "Contents to show on banner. HTML is allowed."
+msgstr ""
+
+#: includes/theme-options.php:190
+msgid "Banner: Home v2"
+msgstr ""
+
+#: includes/theme-options.php:194
+msgid "Will apply to pages with template Home v2 only."
+msgstr ""
+
+#: includes/theme-options.php:220
+msgid "Form Title"
+msgstr ""
+
+#: includes/theme-options.php:221
+msgid "Title to show before the form."
+msgstr ""
+
+#: includes/theme-options.php:226
+msgid "Make sure that you have Contact Form 7 plugin installed and activated."
+msgstr ""
+
+#: includes/theme-options.php:232
+msgid "Form Shortcode"
+msgstr ""
+
+#: includes/theme-options.php:233
+msgid "Insert contact form 7 shortcode here."
+msgstr ""
+
+#: includes/theme-options.php:248
+msgid "Subscription Form"
+msgstr ""
+
+#: includes/theme-options.php:249
+msgid "Show / Hide subscription form in footer above the widgets area."
+msgstr ""
+
+#: includes/theme-options.php:255
+msgid "Make sure that Mailchimp for Wordpress plugin is installed and active."
+msgstr ""
+
+#: includes/theme-options.php:262
+msgid "Subscription Title"
+msgstr ""
+
+#: includes/theme-options.php:263
+msgid "Title to show before the subscription form."
+msgstr ""
+
+#: includes/theme-options.php:269
+msgid "Copyright Text"
+msgstr ""
+
+#: includes/theme-options.php:270
+msgid "Copyright information at the bottom. Basic HTML tags are allowed."
+msgstr ""
+
+#: index.php:1 single.php:1
+msgid "<span>Our</span>Blog"
+msgstr ""
+
+#: search.php:1
+#, php-format
+msgid "<span>Search Results for</span> %s"
+msgstr ""
+
+#: searchform.php:1
+msgid "Type keywords ..."
+msgstr ""
+
+#: searchform.php:1
+msgid "Search"
+msgstr ""
+
+#: template-news.php:1
+#, php-format
+msgid "by : %s"
+msgstr ""

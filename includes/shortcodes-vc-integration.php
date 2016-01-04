@@ -1,7 +1,6 @@
 <?php
 
 function hnm_custom_heading_vc_map() {
-
     vc_map(
         array(
             "name"          => __( "Health+: Heading", "health-plus" ),
