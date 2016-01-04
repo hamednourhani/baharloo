@@ -273,6 +273,9 @@ border-width: 3px;
     float: right;
     clear: both;
 }
+.app_timetable_cell{
+  font-size: 16px;
+}
 
 .top-cal{
   padding-top : 20px;
