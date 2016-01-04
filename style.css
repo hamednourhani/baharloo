@@ -130,6 +130,7 @@ margin: auto 5px;
 #banner-b .form-section label {
     font-weight: 600;
     margin-bottom: 10px;
+    font-size: 18px;
 }
 #banner-b .form-section .sbHolder,
 #banner-b .form-section select{
@@ -142,6 +143,7 @@ margin: auto 5px;
     border: medium none;
     color: white;
     padding: 5px;
+    font-size: 20px;
 }
 #banner-b .form-section button:focus{
 	background-color: #EA6740;
