@@ -35,6 +35,7 @@
                     ?>
 
                     <?php
+
                     if( !empty( $hnmOpt['banner_contents_b'] ) )
                     {
                         echo '<p>' . $hnmOpt['banner_contents_b'] . '</p>';

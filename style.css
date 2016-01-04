@@ -117,9 +117,35 @@ margin: auto 5px;
 	left : 10%;
 }
 
-#banner-b .form-section {
-    /*display: none;*/
+#banner-b .form-section h2{
+    font-size : 22px;
     }
+
+#banner-b .form-section{
+	opacity : 0.8;
+}
+#banner-b .form-section:hover{
+	opacity : 1;
+}
+#banner-b .form-section label {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#banner-b .form-section .sbHolder,
+#banner-b .form-section select{
+	width : 100%;
+	margin-bottom : 10px;
+}
+#banner-b .form-section button{
+    width: 100%;
+    background-color: #E94F21;
+    border: medium none;
+    color: white;
+    padding: 5px;
+}
+#banner-b .form-section button:focus{
+	background-color: #EA6740;
+}
 .drop{
 	background-position: 95% 52%;
 }
