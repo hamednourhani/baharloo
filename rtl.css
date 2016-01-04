@@ -342,6 +342,9 @@ border-width: 3px;
 .appointments-confirmation-wrapper {
     margin-top: 20px;
 }
+.appointments-confirmation-end{
+  display: none;
+}
 .vc_btn3.vc_btn3-size-lg.vc_btn3-icon-right:not(.vc_btn3-o-empty) {
     font-size: 140%;
 }
