@@ -154,6 +154,17 @@ margin: auto 5px;
 
 
 /*-------------Main---------------*/
+.all-news.home2 .news-date{
+	padding : 0px;
+	float : right;
+}
+.all-news .news-text {
+	padding-left: 0px;
+	padding-right: 100px;
+}
+.blog-page .title-grp{
+	display: none;
+}
 @media only screen and (max-width : 767px) {
 .inner-banner .container .row > h2 {
    bottom : auto;

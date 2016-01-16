@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: baharloo\n"
 "POT-Creation-Date: 2016-01-04 18:12+0330\n"
-"PO-Revision-Date: 2016-01-04 18:13+0330\n"
+"PO-Revision-Date: 2016-01-16 13:59+0330\n"
 "Last-Translator: \n"
 "Language-Team: iTstar <itstarir@gmail.com>\n"
 "Language: fa_IR\n"
@@ -19,80 +19,82 @@ msgstr ""
 
 #: 404.php:1
 msgid "Opps, This page Could not be found"
-msgstr ""
+msgstr "متاسفیم . این صفحه وجود ندارد."
 
 #: 404.php:1
 msgid "This page you are looking for might have been removed"
-msgstr ""
+msgstr "صفحه ای که به دنبال آن هستید ممکن است حذف شده باشد."
 
 #: archive.php:1
 #, php-format
 msgid "<span>All posts in</span> %s"
-msgstr ""
+msgstr "<span>تمام مطالب </span> %s"
 
 #: archive.php:1
 #, php-format
 msgid "<span>All posts tagged</span> %s"
-msgstr ""
+msgstr "<span>همه پست های برچسب گذاری شده با </span> %s"
 
 #: archive.php:1
 #, php-format
 msgid "<span>Archive for</span> %s"
-msgstr ""
+msgstr "<span>آرشیو </span>  %s"
 
 #: archive.php:1
 #, php-format
 msgid "<span>All posts by</span> %s"
-msgstr ""
+msgstr "<span>همه مطالب </span> %s"
 
 #: archive.php:1
 msgid "Archive"
-msgstr ""
+msgstr "آرشیو"
 
 #: comments-form.php:8
 msgid "Leave a reply"
-msgstr ""
+msgstr "ارسال یک پاسخ"
 
 #: comments-form.php:12
 #, php-format
 msgid "You must be <a href=\"%s\">logged in </a>to post a comment."
-msgstr ""
+msgstr "برای ارسال دیدگاه باید <a href=\"%s\">وارد سایت شوید. </a>"
 
 #: comments-form.php:18
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
 #: comments-form.php:19 includes/shortcodes-vc-integration.php:52
 msgid "Email"
-msgstr ""
+msgstr "ایمیل"
 
 #: comments-form.php:20
 msgid "Website"
-msgstr ""
+msgstr "وب سایت"
 
 #: comments-form.php:29
 msgid "Submit"
-msgstr ""
+msgstr "ارسال"
 
 #: comments-form.php:30
 msgid "Message"
-msgstr ""
+msgstr "پیام"
 
 #: comments.php:1
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
+"این مطلب توسط کلمه عبور محافظت می شود برای مشاهده دیدگاه ها کلمه عبور را "
+"وارد نمایید."
 
 #: comments.php:1
 msgid "Comments"
-msgstr ""
+msgstr "دیدگاه ها"
 
 #: comments.php:1
 msgid "Sorry no comment yet."
-msgstr ""
+msgstr "هنوز دیدگاهی ثبت نشده است."
 
 #: comments.php:1
 msgid "Comments are closed."
-msgstr ""
+msgstr "دیدگاه ها بسته است."
 
 #: content-header.php:54
 msgid "Toggle navigation"
@@ -100,37 +102,39 @@ msgstr ""
 
 #: content-none.php:1
 msgid "Sorry, but nothing matched your search terms."
-msgstr ""
+msgstr "متاسفیم . هیچ موردی منطبق با عبارت جستجو شده وجود ندارد."
 
 #: content-none.php:1
 msgid "Please try again with some different keywords."
-msgstr ""
+msgstr "لطفا عبارات دیگری را امتحان نمایید."
 
 #: content-none.php:1
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
+"به نظر می رسد صفحه ای که به دنبال آن هستید وجود ندارد . شاید جستجو بتواند به "
+"شما کمک نمایید."
 
 #: content.php:31
 msgid "Read more"
-msgstr ""
+msgstr "ادامه"
 
 #: functions.php:1
 msgid "Primary Menu"
-msgstr ""
+msgstr "فهرست اصلی"
 
 #: functions.php:1
 msgid "Blog"
-msgstr ""
+msgstr "اخبار"
 
 #: functions.php:1
 msgid "Page"
-msgstr ""
+msgstr "صفحه"
 
 #: functions.php:1 includes/theme-options.php:243
 msgid "Footer"
-msgstr ""
+msgstr "پانوشت"
 
 #: includes/class-setup.php:22
 msgid "Install Required &amp; Recommended Plugins"
@@ -298,23 +302,23 @@ msgstr ""
 
 #: includes/custom-functions.php:60
 msgid "Last Posts"
-msgstr ""
+msgstr "عنوان"
 
 #: includes/custom-functions.php:95
 msgid "Address :"
-msgstr ""
+msgstr "آدرس : "
 
 #: includes/custom-functions.php:99
 msgid "Phone :"
-msgstr ""
+msgstr "تلفن : "
 
 #: includes/custom-functions.php:104
 msgid "Fax :"
-msgstr ""
+msgstr "فکس : "
 
 #: includes/custom-functions.php:111
 msgid "Email Address :"
-msgstr ""
+msgstr "آدرس ایمیل : "
 
 #: includes/custom-functions.php:184
 msgid "Please Select Your Service : "
@@ -326,7 +330,7 @@ msgstr "انتخاب تخصص"
 
 #: includes/extras.php:1
 msgid "Reply"
-msgstr ""
+msgstr "پاسخ"
 
 #: includes/import/class-importer.php:30
 msgid "WP_Importer not found"
@@ -566,11 +570,11 @@ msgstr ""
 
 #: includes/plugins-integration.php:32
 msgid "Doctors"
-msgstr ""
+msgstr "پزشکان"
 
 #: includes/plugins-integration.php:33
 msgid "Doctor"
-msgstr ""
+msgstr "پزشک"
 
 #: includes/shortcodes-vc-integration.php:6
 msgid "Health+: Heading"
@@ -620,7 +624,7 @@ msgstr ""
 #: includes/shortcodes-vc-integration.php:79
 #: includes/shortcodes-vc-integration.php:115
 msgid "Categories"
-msgstr ""
+msgstr "دسته بندی ها"
 
 #: includes/shortcodes-vc-integration.php:80
 #: includes/shortcodes-vc-integration.php:116
@@ -845,17 +849,17 @@ msgstr ""
 #: search.php:1
 #, php-format
 msgid "<span>Search Results for</span> %s"
-msgstr ""
+msgstr "<span>نتایج جستجو برای </span> %s"
 
 #: searchform.php:1
 msgid "Type keywords ..."
-msgstr ""
+msgstr "عبارتی را تاپ نمایید ..."
 
 #: searchform.php:1
 msgid "Search"
-msgstr ""
+msgstr "جستجو "
 
 #: template-news.php:1
 #, php-format
 msgid "by : %s"
-msgstr ""
+msgstr "توسط : %s"

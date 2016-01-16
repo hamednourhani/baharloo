@@ -118,9 +118,9 @@ function hnm_home_blog_posts( $attributes, $content = null ) {
     if ( $posts->have_posts() ) : while ( $posts->have_posts() ) : $posts->the_post();
 
     echo '<li>
-            	<div class="news-date"><span>' . get_the_date('d') . '</span> ' . get_the_date('m-y') . '</div>
+            	<div class="news-date">' . get_the_post_thumbnail($post_id,array( 68, 68) ) . '</div>
                 <div class="news-text">
-                    <h2>' . get_the_title() . '</h2>
+                    <h2><a href="'.get_post_permalink().'">' . get_the_title() . '</a></h2>
                     <p>' . hnm_get_excerpt( $excertp_limit ) . '</p>
                 </div>
             </li>';

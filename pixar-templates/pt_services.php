@@ -6,7 +6,8 @@
 
             <div class="lib">
 
-                <h2><a href="<?php echo esc_url( get_permalink() ); ?>"><?php the_title(); ?></a></h2>
+                <h2><?php the_title(); ?></h2>
+<!--                <a href="--><?php ////echo esc_url( get_post_permalink() ); ?><!--"></a>-->
 
                 <?php the_content(); ?>
 
