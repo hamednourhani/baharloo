@@ -34,9 +34,17 @@
                     <?php
                     if( !empty( $hnmOpt['logo']['url'] ) )
                     {
-                        ?>
-                        <a href="<?php echo esc_url( get_home_url('/') ); ?>" rel="home"><img src="<?php echo esc_url( $hnmOpt['logo']['url'] ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" /></a>
-                        <?php
+
+
+
+
+                        if(ICL_LANGUAGE_CODE == 'en'){?>
+                            <a href="<?php echo esc_url( get_home_url('/') ); ?>" rel="home">
+                                <img src="<?php echo get_template_directory_uri().'/images/baharloo-logo-en.png';?>"/>
+                            </a>
+                        <?php } else{ ?>
+                            <a href="<?php echo esc_url( get_home_url('/') ); ?>" rel="home"><img src="<?php echo esc_url( $hnmOpt['logo']['url'] ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" /></a>
+                        <?php }
                     } else {
                         ?>
                         <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>

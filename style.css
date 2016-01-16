@@ -38,6 +38,10 @@ body{
     border-right: 1px solid rgb(85.9%, 92.2%, 96.1%);
     color: #24536E;
 }
+.top-strip h2 .fa{
+	float : left;
+	padding-right : 5px;
+}
 #lang_sel_list{
   padding : 20px;
 }
