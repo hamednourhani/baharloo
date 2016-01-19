@@ -10,7 +10,7 @@
 body {
   font-family: "Weblogma_Yekan";
   direction: rtl;
-  font-size: 160%;
+  font-size: 180%;
   line-height: 180%;
    }
    .inner-banner .container .row > h2{
@@ -88,7 +88,9 @@ body {
 .navbar-nav ul li:hover > ul.dropdown-menu{
   display: block;
 }
-
+.navbar-default .navbar-nav > li > a {
+    color: #161778;
+}
 
 .drop {
     background-position : 6% 52% ;
@@ -109,7 +111,7 @@ body {
 }
 .all-news .news-text p {
     color: #586B78 !important;
-    font-size: 14px;
+    font-size: 16px;
 }
 .carousel .bx-prev {
     right : auto;
@@ -132,6 +134,7 @@ body {
 .bx-next:hover,.bx-prev:hover{
   opacity : 0.9;
 }
+
 .element-lft {
    
     text-align: center;
@@ -180,7 +183,11 @@ body {
     background: url('images/icons/location-var2.png') right 5px no-repeat;
 }
 .about p {
-    font-size: 16px;
+    font-size: 18px;
+}
+.all-news .news-text h2, .text-needleft h2 {
+    
+    font-size: 18px ;
 }
 /*---------------------sidebar----------------------------------*/
 .sidebar-widget ul li a, .accordian ul li a {
@@ -201,7 +208,7 @@ body {
 }
 .service .service-box h2 a {
      font-family: "Weblogma_Yekan";
-    font-size: 16px;
+    font-size: 18px;
 }
 .read-more {
     background: url('images/icons/soci-ico-rtl.png') no-repeat left 7px;

@@ -121,6 +121,9 @@ margin: auto 5px;
 	left : 10%;
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: #161778;
+}
 #banner-b .form-section h2{
     font-size : 22px;
     }
