@@ -30,7 +30,7 @@
 
             <div class="col-sm-12 bottom-strip p-both">
 
-                <div class="col-sm-12 col-xs-6 logo">
+                <div class="col-sm-12 col-xs-12 logo">
                     <?php
                     if( !empty( $hnmOpt['logo']['url'] ) )
                     {
@@ -39,11 +39,16 @@
 
 
                         if(ICL_LANGUAGE_CODE == 'en'){?>
-                            <a href="<?php echo esc_url( get_home_url('/') ); ?>" rel="home">
+                            <a class="logo-wrapper" href="<?php echo esc_url( get_home_url('/') ); ?>" rel="home">
                                 <img src="<?php echo get_template_directory_uri().'/images/baharloo-logo-en.png';?>"/>
                             </a>
                         <?php } else{ ?>
-                            <a href="<?php echo esc_url( get_home_url('/') ); ?>" rel="home"><img src="<?php echo esc_url( $hnmOpt['logo']['url'] ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" /></a>
+                            <a class="logo-wrapper" href="<?php echo esc_url( get_home_url('/') ); ?>" rel="home">
+                                <img src="<?php echo esc_url( $hnmOpt['logo']['url'] ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" />
+                            </a>
+                            <div class="baharloo-desc">
+                                <img src="<?php echo get_template_directory_uri().'/images/baharloo.png';?>"/>
+                            </div>
                         <?php }
                     } else {
                         ?>

@@ -51,6 +51,22 @@ body{
 .logo {
     padding: 15px;
 }
+a.logo-wrapper{
+	display: inline-block;
+	margin-top : 20px;
+}
+.baharloo-desc{
+	float : right;
+}
+
+@media all and (max-width:768px){
+	.logo{
+		text-align : center;
+	}
+	.baharloo-desc{
+		float : none;
+	}
+}
 /*-----------menu ------------------*/
 .navbar-nav a{
 	font-size : 120%;

@@ -50,6 +50,17 @@ body {
 #banner-b .need-right {
     float: left;
 }
+.baharloo-desc{
+    float : left;
+}
+@media all and (max-width:768px){
+    .logo{
+        text-align : center;
+    }
+    .baharloo-desc{
+        float : none;
+    }
+}
 /*--------------------menu------------------------*/
 .navbar-nav {
     float: right;
