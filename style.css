@@ -222,3 +222,6 @@ padding : 5px;
 td{
 	border : 1px solid rgb(83,182,214);
 }
+.en_forms_align,.en_forms_align form{
+	text-align : left;
+}

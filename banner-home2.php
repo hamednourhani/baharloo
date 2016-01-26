@@ -50,7 +50,11 @@
                         <?php
                         if( !empty( $hnmOpt['appt_form_title'] ) )
                         {
-                            echo '<h2>' . $hnmOpt['appt_form_title'] . '</h2>';
+                            if(ICL_LANGUAGE_CODE == 'en'){
+                                echo '<h2>Online Appointment</h2>';
+                            }else {
+                                echo '<h2>' . $hnmOpt['appt_form_title'] . '</h2>';
+                            }
                         }
                         ?>
 
