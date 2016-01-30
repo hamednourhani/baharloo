@@ -52,6 +52,8 @@
                         {
                             if(ICL_LANGUAGE_CODE == 'en'){
                                 echo '<h2>Online Appointment</h2>';
+                            }elseif(ICL_LANGUAGE_CODE == 'ar') {
+                                echo '<h2>جعل التعيينات على الانترنت</h2>';
                             }else {
                                 echo '<h2>' . $hnmOpt['appt_form_title'] . '</h2>';
                             }
