@@ -75,7 +75,7 @@ a.logo-wrapper{
     padding: 25px 19px 25px 20px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    background-position: left 32px;
+    background-position: left 6px;
 }
 .navbar-nav > li:hover >ul.dropdown-menu{
 	display: block;
@@ -101,6 +101,9 @@ a.logo-wrapper{
 
 .navbar-nav ul li:hover > ul.dropdown-menu{
 	display: block;
+}
+.navbar-default .navbar-nav > li > a {
+	padding-top: 0px;
 }
 /*.navbar-nav > li.reservtion > a,
 .navbar-nav > li.reservtion.active > a{
@@ -172,7 +175,7 @@ margin: auto 5px;
 	background-color: #EA6740;
 }
 .drop{
-	background-position: 95% 52%;
+	background-position: 95% 26%;
 }
 
 

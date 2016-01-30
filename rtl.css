@@ -53,6 +53,12 @@ body {
 .baharloo-desc{
     float : left;
 }
+.logo {
+    padding: 15px 15px 2px;
+}
+.logo-wrapper.fa-logo {
+    padding-top: 25px;
+}
 @media all and (max-width:768px){
     .logo{
         text-align : center;
@@ -72,7 +78,7 @@ body {
    
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    background-position:  right 32px ;
+    background-position:  right 5px ;
 }
 
 .dropdown-menu {
@@ -104,7 +110,7 @@ body {
 }
 
 .drop {
-    background-position : 6% 52% ;
+    background-position : 6% 26% ;
 }
 
 @media (min-width: 768px){

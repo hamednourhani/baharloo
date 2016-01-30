@@ -39,14 +39,14 @@
 
 
                         if(ICL_LANGUAGE_CODE == 'en'){?>
-                            <a class="logo-wrapper" href="<?php echo esc_url( get_home_url('/') ); ?>" rel="home">
+                            <a class="logo-wrapper en-logo" href="<?php echo esc_url( get_home_url('/') ); ?>" rel="home">
                                 <img src="<?php echo get_template_directory_uri().'/images/baharloo-logo-en.png';?>"/>
                             </a>
                             <div class="baharloo-desc">
                                 <img src="<?php echo get_template_directory_uri().'/images/tehran-uni-en.png';?>"/>
                             </div>
                         <?php } else{ ?>
-                            <a class="logo-wrapper" href="<?php echo esc_url( get_home_url('/') ); ?>" rel="home">
+                            <a class="logo-wrapper fa-logo" href="<?php echo esc_url( get_home_url('/') ); ?>" rel="home">
                                 <img src="<?php echo esc_url( $hnmOpt['logo']['url'] ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" />
                             </a>
                             <div class="baharloo-desc">
