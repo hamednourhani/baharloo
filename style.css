@@ -191,6 +191,17 @@ margin: auto 5px;
 .blog-page .title-grp{
 	display: none;
 }
+.inner-banner {
+	height: auto;
+	min-height:2px;
+}
+.inner-banner .container .row > h2 {
+	bottom : auto;
+	top: 100%;
+}
+.p82-topbot {
+	padding: 75px 0;
+}
 @media only screen and (max-width : 767px) {
 .inner-banner .container .row > h2 {
    bottom : auto;
