@@ -239,3 +239,6 @@ td{
 .en_forms_align,.en_forms_align form{
 	text-align : left;
 }
+h2.title-grp.extra {
+	display: none;
+}
