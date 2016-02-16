@@ -143,21 +143,21 @@ margin: auto 5px;
 .navbar-default .navbar-nav > li > a {
     color: #161778;
 }
-ul.navbar-nav li ul li.menu-item-has-children > a{
-	display: inline-block;
-	font-family: FontAwesome;
-	text-rendering: auto; // optimizelegibility throws things off #1094
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	transform: translate(0, 0); // ensures no half-pixel rendering in firefox
-	content: "\f0da";
-	vertical-align : middle;
-	padding-left: 5px;
-// width walker added
-position: absolute;
-	right: 30%;
-	top: 38px;
-}
+/*ul.navbar-nav li ul li.menu-item-has-children > a{*/
+	/*display: inline-block;*/
+	/*font-family: FontAwesome;*/
+	/*text-rendering: auto; // optimizelegibility throws things off #1094*/
+	/*-webkit-font-smoothing: antialiased;*/
+	/*-moz-osx-font-smoothing: grayscale;*/
+	/*transform: translate(0, 0); // ensures no half-pixel rendering in firefox*/
+	/*content: "\f0da";*/
+	/*vertical-align : middle;*/
+	/*padding-left: 5px;*/
+/*// width walker added*/
+/*position: absolute;*/
+	/*right: 30%;*/
+	/*top: 38px;*/
+/*}*/
 #banner-b .form-section h2{
     font-size : 22px;
     }
