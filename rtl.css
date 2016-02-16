@@ -13,7 +13,8 @@ body {
   font-size: 180%;
   line-height: 180%;
    }
-   .inner-banner .container .row > h2{
+   .inner-banner .container .row > h2,
+   .service .service-box h2{
     font-family: "Weblogma_Yekan";
    }
   /* line 7, sass/rtl/base/_base.scss */
