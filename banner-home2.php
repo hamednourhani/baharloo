@@ -45,6 +45,7 @@
                 </div>
 
                 <div class="col-sm-5 col-lg-4 need-right">
+
                     <div class="form-section">
 
                         <?php
@@ -68,6 +69,13 @@
                         ?>
 
                     </div>
+                    <div  class="online-form-toggler-container">
+                        <span id="online-form-toggler">
+                            <i class="fa fa-thumb-tack"></i>
+                            <?php echo __("Online Appointment","health-plus");?>
+                        </span>
+                    </div>
+
                 </div>
 
             </div>

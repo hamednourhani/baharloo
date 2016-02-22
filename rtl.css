@@ -51,6 +51,11 @@ body {
 #banner-b .need-right {
     float: left;
 }
+#banner-b div.online-form-toggler-container #online-form-toggler .fa-thumb-tack{
+    font-size : 120%;
+    padding-right : 2px;
+    padding-left : 10px;
+}
 .baharloo-desc{
     float : left;
 }

@@ -60,6 +60,9 @@ jQuery(document).ready(function($){
     if( $('.about').children('.vc_row-full-width') ){
         $('.vc_row-fluid:nth-last-child(2)').css('margin-bottom','0');
     }
+    $("#online-form-toggler").click(function(){
+        $(".form-section").toggleClass("show-online-form");
+    });
 
 });
 

@@ -143,35 +143,76 @@ margin: auto 5px;
 .navbar-default .navbar-nav > li > a {
     color: #161778;
 }
-/*ul.navbar-nav li ul li.menu-item-has-children > a{*/
-	/*display: inline-block;*/
-	/*font-family: FontAwesome;*/
-	/*text-rendering: auto; // optimizelegibility throws things off #1094*/
-	/*-webkit-font-smoothing: antialiased;*/
-	/*-moz-osx-font-smoothing: grayscale;*/
-	/*transform: translate(0, 0); // ensures no half-pixel rendering in firefox*/
-	/*content: "\f0da";*/
-	/*vertical-align : middle;*/
-	/*padding-left: 5px;*/
-/*// width walker added*/
-/*position: absolute;*/
-	/*right: 30%;*/
-	/*top: 38px;*/
-/*}*/
+.navbar-nav ul li.menu-item-has-children::after{
+	display: inline-block;
+	font-family: FontAwesome;
+	text-rendering: auto; // optimizelegibility throws things off #1094
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0); // ensures no half-pixel rendering in firefox
+	content: "\f0da";
+	vertical-align : middle;
+	padding-left: 5px;
+// width walker added
+	position: absolute;
+	right: 30%;
+	top: 38px;
+}
 #banner-b .form-section h2{
     font-size : 22px;
     }
+#banner-b .banner {
 
+	height: auto;
+
+}
+.tparrows ,.hades .tp-bullet{
+	z-index: 999999;
+}
 #banner-b .form-section{
-	opacity : 0.8;
+	opacity : 0;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out;
+	-webkit-transition-delay: 0s;
+	transition: all 0.4s ease-in-out 0s;
+
 }
-#banner-b .form-section:hover{
+#banner-b .form-section.show-online-form{
 	opacity : 1;
+	-ms-transform: translate(0,30px); /* IE 9 */
+	-webkit-transform: translate(0,30px); /* Safari */
+	transform: translate(0,30px);
+
 }
+/*#banner-b .form-section:hover{*/
+	/*opacity : 1;*/
+/*}*/
 #banner-b .form-section label {
     font-weight: 600;
     margin-bottom: 10px;
     font-size: 18px;
+}
+#banner-b div.online-form-toggler-container{
+	margin-top : 164px;
+	text-align: center;
+}
+#banner-b div.online-form-toggler-container #online-form-toggler{
+	display: inline-block;
+	 background-color: #E94F21;
+	opacity:0.9;
+	cursor: pointer;
+	color : #fff;
+	padding : 12px 15px;
+	border-radius : 4px;
+	margin : auto;
+}
+#banner-b div.online-form-toggler-container #online-form-toggler .fa-thumb-tack{
+	font-size : 120%;
+	padding-right : 10px;
+}
+#banner-b div.online-form-toggler-container #online-form-toggler:hover{
+	opacity: 1;
 }
 #banner-b .form-section .sbHolder,
 #banner-b .form-section select{
