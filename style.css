@@ -105,25 +105,25 @@ a.logo-wrapper{
 .navbar-default .navbar-nav > li > a {
 	padding-top: 0px;
 }
-/*.navbar-nav > li.reservtion > a,
-.navbar-nav > li.reservtion.active > a{
-background-color: rgb(0,66,121) !important;
-background-image: none;
-color: white;
-padding: 20px;
-border-bottom: 5px solid rgb(22, 149, 255);
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-border-bottom-left-radius: 10px;
-border-bottom-right-radius: 10px;
-margin: auto 5px;
-}
-.navbar-nav > li.reservtion > a:hover,
-.navbar-nav > li.reservtion.active > a:hover{
-	color : white;
-	border-bottom-width: 3px;
-	background-image: none;
-}*/
+/*.navbar-nav > li.reservtion > a,*/
+/*.navbar-nav > li.reservtion.active > a{*/
+/*background-color: rgb(0,66,121) !important;*/
+/*background-image: none;*/
+/*color: white;*/
+/*padding: 20px;*/
+/*border-bottom: 5px solid rgb(22, 149, 255);*/
+/*border-top-left-radius: 10px;*/
+/*border-top-right-radius: 10px;*/
+/*border-bottom-left-radius: 10px;*/
+/*border-bottom-right-radius: 10px;*/
+/*margin: auto 5px;*/
+/*}*/
+/*.navbar-nav > li.reservtion > a:hover,*/
+/*.navbar-nav > li.reservtion.active > a:hover{*/
+	/*color : white;*/
+	/*border-bottom-width: 3px;*/
+	/*background-image: none;*/
+/*}*/
 
 .dropdown-menu a{
     background-color: #337ab7;
@@ -143,20 +143,26 @@ margin: auto 5px;
 .navbar-default .navbar-nav > li > a {
     color: #161778;
 }
-.navbar-nav ul li.menu-item-has-children::after{
+.dropdown-menu > li.menu-item-has-children > a{
+	display: block;
+	position : relative;
+}
+.dropdown-menu > li.menu-item-has-children > a::after,
+.dropdown-menu > li.menu-item-has-children > a:after{
 	display: inline-block;
-	font-family: FontAwesome;
-	text-rendering: auto; // optimizelegibility throws things off #1094
+	font-family: "FontAwesome";
+	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	transform: translate(0, 0); // ensures no half-pixel rendering in firefox
+	transform: translate(0, 0);
 	content: "\f0da";
 	vertical-align : middle;
 	padding-left: 5px;
-// width walker added
 	position: absolute;
-	right: 30%;
-	top: 38px;
+	right: 5%;
+	/*top: 38px;*/
+	z-index : 999999;
+	color : #fff;
 }
 #banner-b .form-section h2{
     font-size : 22px;

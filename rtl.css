@@ -118,6 +118,17 @@ body {
 .drop {
     background-position : 6% 26% ;
 }
+.dropdown-menu > li.menu-item-has-children > a:after{
+    font-family: "FontAwesome";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f0d9";
+    padding-right: 5px;
+    padding-left: 1px;
+   left: 5%;
+    right : auto;
+    /*top: 38px;*/
+}
 
 @media (min-width: 768px){
 .navbar-nav>li {
